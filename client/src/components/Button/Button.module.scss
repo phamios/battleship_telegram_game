@@ -1,0 +1,23 @@
+.outer {
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.outer:active {
+	--background: rgba(49, 49, 167, 0.1);
+}
+
+.disabled {
+	opacity: 0.6;
+	pointer-events: none;
+}
+
+.inner {
+	padding: 6cqmin;
+	text-align: center;
+	// background-color: blue;
+}
+
+.timer {
+	font-size: 80%;
+}
